@@ -1,0 +1,112 @@
+
+.card-2-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* show 4 lines max */
+  -webkit-box-orient: vertical;
+}
+
+.card-custom {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card-custom:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-custom img {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.card-body {
+  padding-bottom: 0.5rem;
+}
+
+.price-section {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.discount-text {
+  color: green;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-left: 6px;
+}
+
+.free-ship-text {
+  font-size: 0.85rem;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.carousel-inner img {
+
+  object-fit: contain;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #28a745;
+}
+
+.discount-label {
+  font-size: 0.9rem;
+  background-color: #dc3545;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.list-group-item {
+  font-size: 0.95rem;
+}
+
+.tag-badge {
+  background-color: #858282;
+  padding: 4px 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.my-container {
+  max-height: 70vh;
+ overflow-y: auto;
+}
+
+.toast-body {
+  font-size: 1.1rem;
+  animation: pulse-toast 0.4s ease;
+}
+
+@keyframes pulse-toast {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
